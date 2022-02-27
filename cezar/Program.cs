@@ -13,7 +13,8 @@ namespace cezar
             //zminne z alfabetem i krokiem
             string alfabet = "aąbcćdeęfghijklłmnńoóprsśtuwyzżź";
             //tekst do szyfrowania
-            int krok = 3;
+            Console.WriteLine("Podaj długość przestawienia");
+            int krok = int.Parse(Console.ReadLine());
             Console.WriteLine("Podaj tekst do zaszyfrowania:");
             tekstJawny = Console.ReadLine();
             for(int licznik=0; licznik<tekstJawny.Length; licznik++)
